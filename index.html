@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAM NERI</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/58424ffc3e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="div_login">
+    <form action="">
+        <h1 class="title">Login</h1>
+        <h2>Team Neri</h2>
+        <label for="">
+            <i class="fa-solid fa-user"></i>
+            <input placeholder="usuario" type="text" id="username">
+        </label>
+        <label for="">
+            <i class="fa-solid fa-lock"></i>
+            <input placeholder="contraseña" type="password" id="password">
+        </label>
+        
+        <a href="#" class="link">Olvidaste la contraseña</a>
+
+        
+
+        <button id="button">Iniciar sesion</button>
+
+        <a href="#" id="buttonARegistro" class="link">Crear una cuenta</a>
+
+        <!-- <button id="buttonARegistro" class="return_otro_form">No tengo cuenta</button> -->
+    </form>
+    </div>
+
+
+    <div id="div_registrarse" style="display: none">
+        <form action="">
+            <h1 class="title">Registrarse</h1>
+            <h2>Team Neri</h2>
+            <label for="">
+                <i class="fa-solid fa-user"></i>
+                <input placeholder="usuario" type="text" id="new_username">
+            </label>
+            <label for="">
+                <i class="fa-solid fa-envelope"></i>
+                <input placeholder="correo" type="email" id="new_email">
+            </label>
+            <label for="">
+                <i class="fa-solid fa-lock"></i>
+                <input placeholder="contraseña" type="password" id="new_password">
+            </label>
+            <label for="">
+                <i class="fa-solid fa-lock"></i>
+                <input placeholder="repetir contraseña" type="password" id="repeat_password">
+            </label>
+            
+            <a href="#" id="buttonALogin" class="link">Ya tengo cuenta</a>
+    
+            <button id="button_registro">Crear cuenta</button>
+
+            <!-- <button id="buttonALogin" class="return_otro_form">Ya tengo cuenta</button> -->
+        </form>
+        </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
